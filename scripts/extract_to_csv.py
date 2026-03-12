@@ -6,7 +6,7 @@ doc = Document("path of the actual document ")
 
 for para in doc.paragraphs:#now printing all the texts contained in the file.
     print(para.text)
-#this step act as  a discovery step to see format
+#this step act as  a discovery step to see format of the document
 volunteer_data = {
     "Name": "",
     "Surname": "",
@@ -14,7 +14,7 @@ volunteer_data = {
     "Cellphone": "",
     "Email": "",
     
-    # waiting for the form format to come the form created
+    # waiting for the form format to come with the form created
     
 }
 for para in doc.paragraphs:
@@ -30,4 +30,6 @@ for para in doc.paragraphs:
     elif text.startswith("Email:"):
         volunteer_data["Email"] = text.replace("Email:", "").strip()
         
-    # wiating for another 
+
+    # wiating for another atributes to come with designers
+    
