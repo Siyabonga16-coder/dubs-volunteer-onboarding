@@ -7,7 +7,7 @@ doc = Document("path of the actual document ")
 for para in doc.paragraphs:#now printing all the texts contained in the file.
     print(para.text)
 #this step act as  a discovery step to see format of the document
-volunteer_data = {
+volunteer_data = { # disctionary for temporal storage 
     "Name": "",
     "Surname": "",
     "DateOfBirth": "",
@@ -29,7 +29,10 @@ for para in doc.paragraphs:
         volunteer_data["Cellphone"] = text.replace("Cellphone:", "").strip()
     elif text.startswith("Email:"):
         volunteer_data["Email"] = text.replace("Email:", "").strip()
-        
-
     # wiating for another atributes to come with designers
-    
+
+with open("output/volunteers.csv",mode ="w",newLine="",encoding="utf-8) as file:
+          writer = csv.DictWriter(file,fieldnames=volunteer_data.keys())
+          writer.writeheader()
+          writer.writerow(volunteer_data)
+          
