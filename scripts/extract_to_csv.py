@@ -15,12 +15,41 @@ DEFAULT_OUTPUT_FILENAME = "volunteer_onboarding.csv"
 # Key: The label to search for (case-insensitive)
 # Value: The corresponding column name in the CSV
 FIELD_MAP = {
+    "dubs impact driver number": "DIDNumber",
     "name": "Name",
     "surname": "Surname",
+    "gender": "Gender",
+    "race": "Race",
+    "nationality": "Nationality",
+    "home language": "HomeLanguage",
+    "country": "Country",
+    "province/state": "ProvinceState",
+    "primary cellphone number": "PrimaryCellphone",
+    "whatsapp cellphone number": "WhatsAppCellphone",
+    "alternate cellphone number": "AlternateCellphone",
+    "personal email address": "Email",
+    "personal address": "Address",
+    "city": "City",
+    "next of kin full name": "NextOfKinName",
+    "next of kin cellphone number": "NextOfKinCellphone",
+    "highest qualification": "HighestQualification",
+    "institution": "Institution",
+    "qualification name": "QualificationName",
+    "student/young professional": "CareerStage",
+    "work experience (years)": "WorkExperienceYears",
+    "company currently working for": "CurrentEmployer",
+    "team": "Team",
+    "division": "Division",
+    "roles": "Roles",
+    "date joined": "DateJoined",
+    "line manager": "LineManager",
     "date of birth": "DateOfBirth",
-    "cellphone": "Cellphone",
-    "email": "Email"
+    "technical skills": "TechnicalSkills",
+    "highest qualification doc": "QualificationDocument",
+    "headshot": "Headshot",
+    "source file": "SourceFile"
 }
+
 
 # Setup Logging
 logging.basicConfig(
