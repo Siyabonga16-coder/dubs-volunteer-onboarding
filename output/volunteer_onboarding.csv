@@ -1,7 +1,3 @@
-DID Number,Country,Province,Street Address,Suburb/Area
-bmxsbn0008emp,South Africa,Western Cape,15 Long Street,Cape Town CB
-DUBS0001,South Africa,Gauteng,56 Davies street,Doorfontain
-DUBS0003,South Africa,KwaZulu-Natal,42 Ridge Road,Umhlanga
-dwrdst0006emp,South Africa,Gauteng,,/ Area
-kdjmhm0039emp,South Africa,Western Cape,,/ Area
-mbstht0010emp,South Africa,Western Cape,,/ Area
+DID Number   ,Country     ,Province/State,Street Address                            ,Suburb/Area
+mfkrfl0042emp,South Africa,Gauteng       ,Bernini Crescent                          ,Die Hoewes 
+mkhnmp0045emp,South Africa,KwaZulu-Natal ,"169 KINGDINUZULU ROAD, BEREA. DURBAN. 4000",Berea      
