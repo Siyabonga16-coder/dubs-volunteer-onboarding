@@ -429,10 +429,10 @@ def main():
     # GOOGLE API: FOLDER IDs
 
     # Where to download the blank Word docs from:
-    DRIVE_INPUT_FOLDER_ID = '18AbrxOmnSpl8z_tDJe6DOfnswewq8wLV'
+    DRIVE_INPUT_FOLDER_ID = 'removed since the repo ia made public'
 
     # Where to upload the finished CSVs to:
-    DRIVE_OUTPUT_FOLDER_ID = '1CdLigYxEv4JmUnKzSDfY8rT1T7imwY8r'
+    DRIVE_OUTPUT_FOLDER_ID = 'removed since the repo ia made public'
 
     logger.info("Authenticating with Google Drive...")
     service = authenticate_drive()
