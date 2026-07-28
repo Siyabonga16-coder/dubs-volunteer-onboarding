@@ -429,7 +429,7 @@ def main():
     # GOOGLE API: FOLDER IDs
 
     # Where to download the blank Word docs from:
-    DRIVE_INPUT_FOLDER_ID = 'removed since the repo ia made public'
+    DRIVE_INPUT_FOLDER_ID = '18AbrxOmnSpl8z_tDJe6DOfnswewq8wLV'
 
     # Where to upload the finished CSVs to:
     DRIVE_OUTPUT_FOLDER_ID = 'removed since the repo ia made public'
